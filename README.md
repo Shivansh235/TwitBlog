@@ -89,8 +89,8 @@ twitblog/
 
 ```
 
-#### Imp Credentails - 
-
+# Imp Credentails - 
+```
 VITE_APPWRITE_URL=your_appwrite_url
 VITE_APPWRITE_PROJECT_ID=your_project_id
 VITE_APPWRITE_DATABASE_ID=your_database_id
@@ -98,11 +98,13 @@ VITE_APPWRITE_COLLECTION_ID=your_collection_id
 VITE_APPWRITE_BUCKET_ID=your_bucket_id
 VITE_TINYMCE_API_KEY=your_tinymce_api_key
 
+```
 
-#### BAAS Appwrite 
 
-You need to configure these services in Appwrite:
+# BAAS Appwrite 
 
+- You need to configure these services in Appwrite:
+```
 # Create a new Appwrite project
 # Enable Authentication
 # Create a database
@@ -115,3 +117,5 @@ You need to configure these services in Appwrite:
 - userId
 # Create a storage bucket for uploading images
 # Copy the project and bucket IDs into your .env
+
+```
